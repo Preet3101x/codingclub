@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      caption {
+        font-weight: bold;
+      }
+
+      .time {
+        font-weight: bold;
+      }
+
+      .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100%;
+        background-color: #333;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="AJU.png" alt="" id="logo" />
+    <table>
+      <caption>
+        Department of Computer Science & Engineering
+        <br />
+        Time Table (B.Tech 3rd Sem, Sec D)
+      </caption>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="time">10:30 AM - 11:15 AM</td>
+          <td>AI Tools</td>
+          <td rowspan="2">Python Lab</td>
+          <td>OOP</td>
+          <td>OOP</td>
+          <td>OOP</td>
+        </tr>
+        <tr>
+          <td class="time">11:15 AM - 12:00 AM</td>
+          <td>EM III</td>
+          <td>EM III</td>
+          <td>EM III</td>
+          <td>Python</td>
+        </tr>
+        <tr>
+          <td class="time">12:00 PM - 12:30 PM</td>
+          <td colspan="5" class="center-text">Break</td>
+        </tr>
+        <tr>
+          <td class="time">12:30 PM - 1:15 PM</td>
+          <td>DS</td>
+          <td>OOP</td>
+          <td rowspan="2">OOP Lab</td>
+          <td>FDLC</td>
+          <td rowspan="2">DS Lab</td>
+        </tr>
+        <tr>
+          <td class="time">1:15 PM - 2:00 PM</td>
+          <td>FDLC</td>
+          <td>DS</td>
+          <td>FDLC</td>
+        </tr>
+        <tr>
+          <td class="time">2:00 PM - 2:30 PM</td>
+          <td colspan="5" class="center-text">Break</td>
+        </tr>
+        <tr>
+          <td class="time">2:30 PM - 3:15 PM</td>
+          <td>EVS</td>
+          <td>AI Tools</td>
+          <td>Python</td>
+          <td>Python</td>
+          <td>AI Tools</td>
+        </tr>
+        <tr>
+          <td class="time">3:15 PM - 4:00 PM</td>
+          <td rowspan="2">Python Lab</td>
+          <td>FDLC</td>
+          <td>FDLC</td>
+          <td>EVS</td>
+          <td>EM III</td>
+        </tr>
+        <tr>
+          <td class="time">4:00 PM - 4:45 PM</td>
+          <td>EM III</td>
+          <td>EVS</td>
+          <td>DS</td>
+          <td>Python</td>
+        </tr>
+      </tbody>
+    </table>
+    <nav class="sidebar">
+      <ul>
+        <li><a href="home.html">Homepage</a></li>
+        <li><a href="#section2">Page 2</a></li>
+        <li><a href="#section3">Page 3</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
